@@ -1,0 +1,126 @@
+q6 idade
+q7 sexo				
+civil estado_civil				
+q8a grau_escolaridade				
+q8b série_escolaridade
+q8_anos	anos_de_estudo
+r128a dirige			
+q9 peso_kg				
+q11 altura_cm				
+q14 gravidez				
+q15 feijao		
+q16 freq_horta
+q17 freq_horta_crua				
+q18 vezes_horta_crua				
+q19 freq_horta_cozida			
+q20 vezes_horta_cozida		
+q21 come_carne
+q22 gordura_carne			
+q23 come_frango			
+q24 pele_de_frango				
+q25 suco_frutas			
+q26 qtd_suco			
+q27 freq_fruta				
+q28 vezes_fruta	
+q29 freq_refri
+q30 tipo_refri				
+q31 qtd_refri		
+q32 freq_leite			
+q33 tipo_leite
+r143 doces			
+r146 vezes_doce_por_dia			
+r144a troca_almoço			
+r144b troca_jantar				
+q35 bebida_alcoólica				
+q36 freq_alcool		
+q37 LABE_5_doses_homem			
+q38 LABE_4_doses_mulher		
+q39 LABE_dias				
+r200 num_max_doses
+q40 dirige_apos_beber			
+q40b freq_dirige_apos_beber		
+q42 exerc_fisico			
+q43a qual_exerc_fisico
+q44 exerc_1_vez_semana				
+q45 freq_exerc			
+q46 duracao_exerc			
+q47 trabalha
+q48 anda_a_pe				
+q49 carrega_peso				
+r147 dias_ativ_trabalho			
+r148_hh	duracao_atividades_horas
+r148_mm	duracao_atividades_minutos
+q50 trajeto_pe_ou_bici			
+q51 duracao_trajeto			
+q52 curso_escola			
+q53 como_trajeto_curso_escola 			
+q54 duracao_trajeto_curso_escola
+q55 faxina			
+q56 parte_pesada			
+r149 dias_faxina_semana			
+r150_hh	tempo_faxina_h
+r150_mm	tempo_faxina_min
+q59a hora_tv_dia				
+q59b uso_pc_tablet_celular				
+q59c media_pc_tablet_celular				
+q60 fumante				
+q61 cigarros_dia
+q61a cigarros_semana
+q61_fx cigarros_dia_faixas
+q61a_fx	cigarros_semana_faixas			
+q62 idade_inicio
+q63 tentou_parar			
+q64 ex_fumante		
+q67 contato_fumo_casa			
+q68 contato_fumo_trabalho			
+r157 trabalha_local_fechado		
+q69 cor		
+q69_ou cor_outra
+q70 fone		
+q71 qtd_fone		
+q74 estado_saude
+q75 pressao_alta			
+r203 medicamento_pressao_alta		
+r129 medicamento		
+r130 onde_medicacao_pressao
+r130a onde_medicacao_pressao		
+q76 diabetes	             (target)
+r138 diabetes_so_gravidez	
+r202 idade_inicio_diabetes   (leakage?)
+r204m medicamento_diabetes   (leakage)		
+r133a comprimido_diabetes    (leakage)		
+r134c onde_comprimido_diabetes	(leakage)	
+r133b insulina_diabetes	     (leakage)		
+r134b onde_insulina_diabetes (leakage)
+q78 colesterol_triglicerides
+q79a papanicolau		
+q80 tempo_papanicolau
+q81 mamografia	
+q82 tempo_mamografia		
+q88 plano_de_saude			
+r135 multado_12_meses   -  parece não ter nada a ver			
+r136 local_multa	-  parece não ter nada a ver	
+r153 passou_blitz	-  parece não ter nada a ver
+r137a parado_blitz	-  parece não ter nada a ver		
+r154 convidado_bafometro -  parece não ter nada a ver			
+r155 fez_bafometro	-  parece não ter nada a ver	
+r156 deu_positivo       -  parece não ter nada a ver
+r900 bolsa_familia	
+obs_r900 obs_bolsa_familia
+d1 ficou_sem_insulina_30_dias (leakage)
+d2 por_que_sem_insulina	      (leakage)
+d3 ficou_sem_comprimidos_diabetes_30_dias  (leakage)	
+d4 ficou_sem_medicamento_diabetes    (leakage)		
+d5 outro_medicamento_diabetes_30_dias	(leakage)		
+d6 por_que_ficou_sem_outro_medicamento_diabetes	(leakage)	
+moradores
+adultos
+obs
+pesorake
+fet faixa_etaria			
+cat_esc	categorias_idade_sexo_imput_escolaridade
+fesc faixa_escolaridade			
+fxesc faixa_escolaridade_RAKE			
+q9_i peso_kg_valores_imputados  - da pra juntar com os valores não imputados
+q11_i altura_cm_valores imputados  - da pra juntar com os valores não imputados
+pinterno 	
